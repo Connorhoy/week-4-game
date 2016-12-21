@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto");
-
 body {
     background-image: url("http://www.pichaca.com/wp-content/uploads/2016/07/Minecraft-Background-Pi5A.jpg");
 	background-position: center;
@@ -7,21 +5,23 @@ body {
 	width: 1080px;
 }
 
+@import url("https://fonts.googleapis.com/css?family=Baloo+Thambi");
+
 h1, h3 {
-	font-family: 'Pacifico', cursive;
+	font-family: 'Baloo Thambi', cursive;
 	color: white;
 }
 
 #gem-logo {
 	position: absolute;
-    left: 350px;
-    top: 100px;
+    left: 370px;
+    top: 220px;
     font-size: 72px;
     color: white;
 }
 
 #gem-row {
 	position: absolute;
-	left: 600px;
+	left: 370px;
 	top: 500px;
 }

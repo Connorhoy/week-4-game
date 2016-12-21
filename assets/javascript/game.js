@@ -3,7 +3,6 @@ $( document ).ready(function() {
   var score = 0;
   var wins = 0;
   var losses = 0;
-  const chime = $("#chime");
 
 
   function randomNumberToGet() {
@@ -29,7 +28,6 @@ $( document ).ready(function() {
   setRandom();
   
   $("img").click(function(){
-    chime.get(0).play();
     score += $(this).data("number");
     $("#your-score").html(score);
     console.log(score);
