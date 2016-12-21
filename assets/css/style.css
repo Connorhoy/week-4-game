@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+body {
+    background-image: url("http://www.pichaca.com/wp-content/uploads/2016/07/Minecraft-Background-Pi5A.jpg");
+	background-position: center;
+	height: 900px;
+	width: 1080px;
+}
+
+h1, h3 {
+	font-family: 'Pacifico', cursive;
+	color: white;
+}
+
+#gem-logo {
+	position: absolute;
+    left: 350px;
+    top: 100px;
+    font-size: 72px;
+    color: white;
+}
+
+#gem-row {
+	position: absolute;
+	left: 600px;
+	top: 500px;
+}
