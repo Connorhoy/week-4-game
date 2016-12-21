@@ -1,3 +1,4 @@
+/* Minecraft Background Image */
 body {
     background-image: url("http://www.pichaca.com/wp-content/uploads/2016/07/Minecraft-Background-Pi5A.jpg");
 	background-position: center;
@@ -5,14 +6,17 @@ body {
 	width: 1080px;
 }
 
+/* Font link */
 @import url("https://fonts.googleapis.com/css?family=Baloo+Thambi");
 
+/* Header/text font and color */
 h1, h3 {
 	font-family: 'Baloo Thambi', cursive;
 	color: white;
 }
 
-#gem-logo {
+/* Position, size and color of 'Minecraft Ores' header text. */
+#ore-head {
 	position: absolute;
     left: 370px;
     top: 220px;
@@ -20,8 +24,16 @@ h1, h3 {
     color: white;
 }
 
-#gem-row {
+/* Positioning of row of JS */
+#ore-row {
 	position: absolute;
 	left: 370px;
 	top: 500px;
+}
+
+/* Pos. of my hawt mc ores */
+#ores {
+	position: absolute;
+	top: 30px;
+	left: 470px;
 }

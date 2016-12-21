@@ -1,5 +1,6 @@
 $( document ).ready(function() {
 
+  // Variables for ore game.
   var score = 0;
   var wins = 0;
   var losses = 0;
@@ -9,13 +10,13 @@ $( document ).ready(function() {
     return Math.floor(Math.random() * (120 - 19) + 19);
   }
 
-  function randomCrystalNumber() {
+  function randomOreNumber() {
     return Math.floor(Math.random() * (12 - 1) + 1);
   }
 
   function setRandom() {
     $("img").map(function(){
-      $(this).data("number", randomCrystalNumber());
+      $(this).data("number", randomOreNumber());
       console.log($(this).data());
     })
   }

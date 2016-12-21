@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Connor's MC Crystal Game</title>
+  <title>Connor's MC Ore Game</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -12,16 +12,16 @@
   <div class="container">
     <div class="row">
       <div class="col-md-6 col-md-offset-2">
-        <h1 class="text-center" id="gem-logo">Minecraft Ores</h1>
+        <h1 class="text-center" id="ore-head">Minecraft Ores</h1>
       </div>
     </div>
-    <div class="row text-center" >
+    <div class="row text-center" id="ores">
       <div class="col-md-4">
-         <h3>Number to match</h3>     
+         <h3>Number of ores to match:</h3>     
          <h3 id="target">0</h3>
       </div>
       <div class="col-md-4">
-         <h3>Your score is...</h3>
+         <h3>You have mined:</h3>
          <h3 id="your-score">0</h3>
       </div>
       <div class="col-md-4">
@@ -29,7 +29,7 @@
          <h3 id="losses">Losses</h3>
       </div>
     </div>
-    <div class="row" id="gem-row">
+    <div class="row" id="ore-row">
       <div class="col-md-3">
         <img src="assets/images/diamond.png" class="img-responsive" id="image1">
       </div>
